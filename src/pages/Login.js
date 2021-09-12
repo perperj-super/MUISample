@@ -33,10 +33,6 @@ const RightPanelStyle = styled(Box)(({ theme }) => ({
       color: theme.palette.green.darker,
       fontWeight: 500,
     },
-
-    [theme.breakpoints.down("sm")]: {
-      display: "none",
-    },
   },
 
   "& .form_Container": {
